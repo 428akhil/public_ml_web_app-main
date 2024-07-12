@@ -1,0 +1,53 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+}
+
+.stButton button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.stButton button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.stTextInput input {
+    border: 2px solid #4CAF50;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.stTextInput input:focus {
+    outline: none;
+    border: 2px solid #66bb6a;
+}
+
+.stMarkdown h1 {
+    color: #4CAF50;
+}
+
+.stMarkdown h2 {
+    color: #66bb6a;
+}
+
+.stMarkdown h3 {
+    color: #81c784;
+}
+
+.stMarkdown p {
+    color: #333333;
+}
