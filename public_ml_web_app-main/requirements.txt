@@ -2,4 +2,5 @@ streamlit
 numpy>=1.22.0
 pandas
 scikit-learn
+streamlit-option-menu
 # Add other dependencies here
